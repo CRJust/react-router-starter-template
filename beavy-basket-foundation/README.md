@@ -17,6 +17,10 @@ The resulting schema adds:
 
 Both new tables have RLS enabled. Public roles have SELECT only; writes are reserved for `service_role`.
 
+## Research benchmark
+
+See [`research/tprice-benchmark.md`](research/tprice-benchmark.md) for the Serbia/Croatia TPrice product and backend benchmark, Beavy-specific recommendations, and a phased implementation sequence.
+
 ## Contents
 
 - `src/types/basket.ts` — draft API contracts and request validation.
