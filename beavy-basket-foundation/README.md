@@ -17,6 +17,10 @@ The resulting schema adds:
 
 Both new tables have RLS enabled. Public roles have SELECT only; writes are reserved for `service_role`.
 
+## UI/UX direction
+
+See [`ui/shopping-list-and-comparison-flow.md`](ui/shopping-list-and-comparison-flow.md) for the proposed mobile-first flow: continuous quick-add, live basket comparison, visible coverage and one/two/three-destination plans.
+
 ## Research benchmark
 
 See [`research/tprice-benchmark.md`](research/tprice-benchmark.md) for the Serbia/Croatia TPrice product and backend benchmark, Beavy-specific recommendations, and a phased implementation sequence.
